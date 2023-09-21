@@ -35,7 +35,7 @@
 
 .header-menu-item {
     color: var(--NAVY-BLUE, #2E2F42);
-    /* Body Medium */
+ 
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -45,7 +45,7 @@
 }
 
 .header-menu-item a[href="./index.html"] {
-    /* Your styles for the first list item's link here */
+    
 }
 
 .header-contact {
@@ -59,9 +59,18 @@
     letter-spacing: 0.32px;
 }
 
-.header-contact a:hover,
-.header-contact a:focus {
-    /* Your styles for hover and focus here */
+
+
+.header-menu-item a[href="./index.html"] {
+    color: #2e2f42; /
 }
 
-/* Add styles for other elements as needed */
+
+.header-menu-item a[href="./index.html"]:hover {
+    color: #404bbf; 
+}
+
+
+.header-menu-item a[href="./index.html"]:focus {
+    color: #404bbf; 
+}
