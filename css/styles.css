@@ -64,6 +64,16 @@
 }
 
 
+.header-menu-link:hover{
+    background-color: #404BBF;
+
+}
+
+
+.header-menu-link:focus {
+    background-color: #404BBF; 
+}
+
 .header-contact {
     color: var(--SLATE, #434455);
     /* Body */
