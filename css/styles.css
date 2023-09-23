@@ -93,7 +93,7 @@ letter-spacing: 0.32px;
 
 
 .header-contact-item{
-    color: #434455;
+    color: var(--SLATE, #434455);
 
     /* Body */
     font-family: Roboto;
@@ -102,17 +102,7 @@ letter-spacing: 0.32px;
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing:0.02em;
-
     }
-    .header-contact-item:hover {
-        background-color: #404BBF;
-
-    }
-    
-
-    .header-contact-item:focus {
-        background-color: #404BBF; 
-}
 
 
 
@@ -156,6 +146,27 @@ flex-shrink: 0;
     width: 496px;
 }
 
+.button{
+    
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+}
+
+.button:hover{
+    background-color: #404BBF;
+
+}
+
+
+.button:focus {
+    background-color: #404BBF; 
+}
+
 .button-order{
  
         background-color: #4D5AE5;
@@ -168,8 +179,9 @@ flex-shrink: 0;
         cursor: pointer;
     }
     
+    .
 
-    .button-oreder:hover {
+    .button-oreder:hover{
         background-color: #404BBF;
 
     }
