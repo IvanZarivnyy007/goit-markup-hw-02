@@ -135,18 +135,25 @@ flex-shrink: 0;
 }
 
 .button-order{
-
-    color: var(--WHITE, #FFF);
-    text-align: center;
+ 
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+    }
     
-    /* Header 1 */
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px;  
-    width: 496px;  
+    /* Стиль кнопки при наведенні (hover) */
+    .button:hover {
+        background-color: #404BBF;
+    }
+    
+    /* Стиль кнопки при фокусі */
+    .button:focus {
+        background-color: #404BBF; 
 }
 
 
