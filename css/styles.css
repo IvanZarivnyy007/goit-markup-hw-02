@@ -5,6 +5,13 @@
     background-color: #FFFFFF;
 }
 
+
+/* ==========================header================================*/
+
+.header{
+
+}
+
 .header-nav {
     width: 1440px;
     height: 72px;
@@ -110,8 +117,13 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
-
 }
+
+/* ==========================================================*/
+
+
+
+/* ============section-main-section-effective================*/
 
 .main-section-effective {
 background: var(--NAVY-BLUE, #2E2F42);
@@ -157,7 +169,17 @@ flex-shrink: 0;
 }
 
 
+/* ==========================================================*/
 
+
+
+
+/* =================section-advantages========================*/
+
+
+.advantages{
+
+}
 
 /*  1 */
 .advantages-list {
@@ -240,7 +262,7 @@ width: 264px;
     width: 264px;
 }
 
-          /*  3 */
+
 
 
 
@@ -314,7 +336,7 @@ letter-spacing: 0.32px;
 width: 264px;
 }
 
-
+/* ==========================================================*/
 
 /* =====================section-team========================*/
 
@@ -333,7 +355,7 @@ width: 264px;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
+    line-height:  1.11em; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -398,7 +420,7 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px; /* 111.111% */
+line-height: 1.11em; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
 }
