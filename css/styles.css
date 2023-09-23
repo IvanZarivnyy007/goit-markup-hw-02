@@ -449,7 +449,7 @@ letter-spacing: 0.4px;
 /* =========================section-footer=========================*/
 
 .footer {
-color: #2E2F42;
+background-color: #2E2F42;
 font-family: Roboto;
 font-size: 40px;
 font-style: normal;
@@ -457,24 +457,21 @@ font-weight: 600;
 line-height: normal;
 }
 .footer-logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     
 }
-.Web {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    display: flex;
-    width: 44px;
-    height: 21px;
-    flex-direction: column;
-    justify-content: center; 
-}
 
+.span-Studio {
+color: #f4f4fd;
+
+
+}
 .Studio{
 color: var(--NAVY-BLUE, #2E2F42);
 font-family: Raleway;
@@ -499,7 +496,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
-letter-spacing: 0.32px
+letter-spacing: 0.02em;
 width: 264px;
 }
 
