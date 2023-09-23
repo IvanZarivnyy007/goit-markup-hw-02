@@ -131,7 +131,7 @@ height: 104px;
 flex-shrink: 0;
 }
 
-.h1 {
+.title{
     color: var(--WHITE, #FFF);
     text-align: center;
     
@@ -140,8 +140,8 @@ flex-shrink: 0;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px;
+    line-height: 1.07; 
+    letter-spacing: 0.02em;
     width: 496px;
 }
 
