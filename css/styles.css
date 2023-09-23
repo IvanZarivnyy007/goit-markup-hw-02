@@ -157,13 +157,14 @@ flex-shrink: 0;
         cursor: pointer;
     }
     
-    /* Стиль кнопки при наведенні (hover) */
-    .button:hover {
+
+    .button-oreder:hover {
         background-color: #404BBF;
+
     }
     
-    /* Стиль кнопки при фокусі */
-    .button:focus {
+
+    .button-oreder:focus {
         background-color: #404BBF; 
 }
 
