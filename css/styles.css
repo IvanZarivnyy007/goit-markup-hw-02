@@ -108,14 +108,24 @@ letter-spacing: 0.32px;
 
 
 .header-contact-link{
-    color: var(--NAVY-BLUE, #2E2F42);
+color: #434455
 /* Body Medium */
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height:  1.5; /* 150% */
+letter-spacing: 0.02em;
+}
+
+.header-contact-link:hover {
+    background-color: #404BBF;
+
+}
+
+
+.header-contact-link:focus {
+    background-color: #404BBF; 
 }
 
 /* ==========================================================*/
